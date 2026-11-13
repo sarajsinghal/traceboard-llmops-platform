@@ -2,8 +2,6 @@
 
 Traceboard is a local-first dashboard for reviewing trace events sent by an instrumented LLM application. It stores events in SQLite and provides filtering, analytics, span drill-down, prompt-version comparison, deterministic evaluation, alerts, and export. It does not connect to a model provider or discover production traffic on its own.
 
-**Live app:** https://traceboard-llmops-platform.streamlit.app/
-
 This repository intentionally ships **without sample/demo trace data, evaluation datasets, or mock application scripts**. The hosted app starts empty and accepts your own JSON/CSV trace exports and JSON evaluation cases. The interface has no AI/ChatGPT watermark or generated-by claim.
 
 ## Repository and deployment
